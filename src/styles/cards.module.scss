@@ -1,0 +1,81 @@
+.tariffPageWarpBelow {
+    width: 100%;
+    display: flex;
+    position: relative;
+    padding-top: 15px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    .tariffPageElement {
+        display: flex;
+        width: 32%;
+        flex-wrap: wrap;
+        margin-top: 25px;
+        height: fit-content;
+        flex-direction: column;
+        border: 1px solid #C4C4C4;
+        margin: 5px 5px;
+    }
+    .tariffPageElement {
+        height: auto!important;
+    }
+    .tariffPageElement1{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        max-height: 337.5px;
+    }
+    .tariffPageElement1s {
+        background: rgba(77, 126, 255, 0.3);
+        backdrop-filter: blur(20px);
+        border-radius: 0px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+    }
+    .space{
+        display: flex;
+        width: 25%;
+        margin: 15px;
+        justify-content: space-between;
+    }
+    .tariffPageElement1s p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 29px;
+        color: #FFFFFF;
+        margin-left: 15px;
+        font-family: "Roboto";
+    }
+    .tariffPageElement2 {
+        display: flex;
+        position: relative;
+        background: #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 0px;
+        border-top: none;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        align-content: flex-start;
+    }
+    .tariffPageElement2s {
+        margin: 30px;
+        height: 170px;
+    }
+    .tariffPageElement3s {
+        width: 89%;
+        flex-wrap: wrap;
+        background: #FFFFFF;
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-bottom: 25px;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+    .customDropdownButton{
+        width: 330px;
+    }
+   
+}
